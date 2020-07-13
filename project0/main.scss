@@ -1,0 +1,18 @@
+$color:red;
+
+%message {
+    background-color: $color;
+}
+
+#first {
+    @extend %message;
+    color : green;
+}
+#second {
+    @extend %message;
+    color :yellow;
+}
+#third {
+    @extend %message;
+    color :blue;
+}
